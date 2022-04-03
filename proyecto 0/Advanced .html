@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyect 0  --  Google serch</title>
+    <link rel="stylesheet" href="formato.css">
+</head>
+
+<body>
+
+    <header>
+        <p class="centrado">PROYECT: CERO</p>
+        <img src="Google-Advanced-Search-featuredimage.png" class="presentacion" style="width:200px">
+    </header>
+
+    <nav id="barra_links">
+        <ul>
+            <li>
+                <a href="index.html">Google Normal Search</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div>
+        <p class="presentacion">Perform a <strong>advanced</strong> search with the Google search engine</p>
+    </div>
+
+    <div id="contenedor" style="height:360px">
+      <form action="https://www.google.com.ar/search">
+        <table>
+            <tr class="centro">
+                <td >
+                    <p class="altura">all these words:</p>
+                </td>
+                <td>
+                    <input id="texto" type="text" name="as_q">
+                </td>
+            </tr>
+            <tr class="centro">
+                <td >
+                    <p class="altura">this exact word or phrase:</p>
+                </td>
+                <td>
+                    <input id="texto" type="text" name="as_epq">
+                </td>
+            </tr>
+            <tr class="centro">
+                <td >
+                    <p class="altura">any of these words:</p>
+                </td>
+                <td>
+                    <input id="texto" type="text" name="as_oq">
+                </td>
+            </tr>
+            <tr class="centro">
+                <td >
+                    <p class="altura">none of these words:</p>
+                </td>
+                <td>
+                    <input id="texto" type="text" name="as_eq" >
+                </td>
+            </tr>
+            <tr class="centro">
+                <td >
+                    <p class="altura">numbers ranging from:</p>
+                </td>
+                <td style="width: 32%;">    
+                    <input id="texto" type="number" name="as_nlo" >
+                </td>
+                <td style="width: 5%;">
+                </td>
+                <td style="width: 11%;">
+                    <p class="altura" style="margin-left: 15px;">To</p>
+                </td>
+                <td style="width: 32%;">
+                    <input id="texto" type="number" name="as_nhi">
+                </td>
+            </tr>
+            <tr class="centro">
+                <td>
+                    <input id="envio" type="submit" title="Submit">
+                </td>
+            </tr>
+        </table>
+      </form>
+    </div>
+
+    <footer id="pie">
+        <p>Proyecto de Juan Jose Remedi</p>
+    </footer>
+
+</body>
+</html>
